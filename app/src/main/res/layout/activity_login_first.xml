@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".activities.LoginFirstActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/image_third"
+        android:layout_width="match_parent"
+        android:layout_height="298dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/background2" />
+
+    <ImageView
+        android:id="@+id/image_fourth"
+        android:layout_width="179dp"
+        android:layout_height="167dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="513dp"
+        android:src="@drawable/obj2" />
+
+
+    <TextView
+        android:id="@+id/txtView"
+        android:layout_width="139dp"
+        android:layout_height="28dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="379dp"
+        android:layout_marginEnd="209dp"
+        android:layout_marginBottom="323dp"
+        android:fontFamily="sans-serif-black"
+        android:text="LOGIN"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnMob"
+        android:layout_width="250dp"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="280dp"
+        android:drawableStart="@drawable/ic_mobile"
+        android:paddingLeft="10dp"
+        android:text="Enter Your Mobile Number"
+        style="@style/button_secondary" />
+
+    <Button
+        android:id="@+id/btnFb"
+        android:layout_width="250dp"
+        android:layout_height="20dp"
+        android:layout_alignTop="@+id/btnMob"
+        android:layout_alignBottom="@+id/btnMob"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="-70dp"
+        android:drawableStart="@drawable/ic_fb"
+        android:paddingLeft="10dp"
+        android:text="Continue With Facebook"
+        style="@style/button_secondary" />
+
+    <Button
+        android:id="@+id/btnGoogle"
+        android:layout_width="250dp"
+        android:layout_height="20dp"
+        android:layout_alignTop="@id/btnFb"
+        android:layout_alignBottom="@id/btnFb"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="-70dp"
+        android:drawableStart="@drawable/ic_google"
+        android:paddingLeft="10dp"
+        android:text="Continue With Google"
+        style="@style/button_secondary" />
+
+    <Button
+        android:id="@+id/btnMail"
+        android:layout_width="250dp"
+        android:layout_height="20dp"
+        android:layout_alignTop="@id/btnGoogle"
+        android:layout_alignBottom="@+id/btnGoogle"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="-70dp"
+        android:drawableStart="@drawable/ic_mail"
+        android:paddingLeft="10dp"
+        android:text="Continue With Email"
+        style="@style/button_secondary" />
+
+    <TextView
+        android:id="@+id/txtViewTC"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="714dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="17dp"
+        android:gravity="center"
+        android:text="@string/hyperlink" />
+</RelativeLayout>
+</LinearLayout>

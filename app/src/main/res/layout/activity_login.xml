@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".activities.LoginActivity">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/image_fifth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/background3" />
+
+    <ImageView
+        android:id="@+id/image_sixth"
+        android:layout_width="179dp"
+        android:layout_height="167dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="499dp"
+        android:src="@drawable/obj3" />
+
+    <TextView
+        android:id="@+id/txtView"
+        android:layout_width="139dp"
+        android:layout_height="28dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="425dp"
+        android:layout_marginEnd="233dp"
+        android:layout_marginBottom="276dp"
+        android:fontFamily="sans-serif-black"
+        android:text="LOGIN"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtViewMobNo"
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="463dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="247dp"
+        android:text="Enter Your Mobile Number" />
+
+    <EditText
+        android:id="@+id/etMob"
+        style="@style/button_secondary"
+        android:layout_width="250dp"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="486dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="218dp"
+        android:inputType="phone" />
+
+    <TextView
+        android:id="@+id/txtViewPwd"
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="555dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="158dp"
+        android:text="Enter Your Password" />
+
+    <EditText
+        android:id="@+id/etPwd"
+        android:layout_width="250dp"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="573dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="126dp"
+        android:inputType="textPassword"
+        style="@style/button_secondary" />
+
+    <Button
+        android:id="@+id/btnProceed"
+        android:layout_width="279dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="663dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="22dp"
+        android:text="PROCEED"
+        style="@style/button_primary" />
+
+
+</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

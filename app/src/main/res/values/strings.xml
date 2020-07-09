@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyFoodzApplication</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="title_activity_login_first">LoginFirstActivity</string>
+    <string name="hyperlink">By Continuing You Agree To \n <a href="https://www.MyFoodzApp.com/tandc">Our Terms Of Service &amp; Privacy Policy</a></string>
+</resources>
